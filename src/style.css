@@ -13,8 +13,16 @@
   padding: 0;
 }
 
+html, 
 body {
-  padding: 40px;
+    height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   background-color: var(--gray);
   font-size: 18px;
   font-family: "Outfit", monospace;
@@ -31,6 +39,7 @@ body {
   object-fit: contain;
   width: 375px;
   padding: 20px;
+  max-width: 90%;
 }
 
 img {
