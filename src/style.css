@@ -37,7 +37,6 @@ body {
   margin: auto;
   justify-content: center;
   object-fit: contain;
-  width: 375px;
   padding: 20px;
   max-width: 90%;
 }
